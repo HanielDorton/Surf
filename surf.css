@@ -1,0 +1,83 @@
+body{
+	background-color: white ;
+	background-image: url(http://i446.photobucket.com/albums/qq189/neokalvinist/titlewithtitle_zps83f12d54.gif);
+	background-position: top, center;
+	background-repeat: no-repeat;
+	border-image: 5px black;
+	background-size: 50em,5em;
+	color: black;
+	font-family: “Trebuchet MS”, Verdana, Arial, Helvetica, sans-serif;
+}
+.paragraph, .sidemenu, .fishpics, img {
+	background-color: LightSkyBlue;
+	border: 2px solid black;
+}
+.everything{
+	width: 700px;
+	margin: auto;
+}
+.firstsection{
+	margin-top: 305px;
+}
+.paragraph{
+	width:500px;	
+	float:left;
+}
+.image{
+	float:left;
+	margin: 5px;
+}
+.sidemenu{
+	font-size: .75em;
+	font-weight: bold;
+	width: 180px;
+	float:right;
+	height:auto;
+	padding: 3px
+}
+.separate{
+	clear:both;
+	width: 700px;
+	height: 7px;
+}
+.fishtable{
+	clear:both;
+	position: center;
+}
+.fishpics{
+	clear:both;
+	text-align: center;
+}
+.map{
+	text-align: center;
+}
+.scroll{
+	background-image: url(http://i446.photobucket.com/albums/qq189/neokalvinist/Fishing/Leather_Paper_Scroll_clip_art_medium2-1.gif);
+	background-size: 270px;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	font-family: courier , verdana, sans-serif;
+	font-size: 17px;
+}
+p{
+	text-indent: 2em;
+	text-align: left;	
+}	
+hr{
+	clear: both;
+	size:3;
+}
+a:link {
+	color: black;
+	text-align:left;
+}
+a:visited {
+	color: black;
+}
+a:hover {
+	color: orange;
+	font-style: italic;
+}
+img {
+   padding:1px;
+}
