@@ -70,11 +70,12 @@ hr{
 a:link {
 	color: black;
 	text-align:left;
+	text-decoration: none;
 }
 a:visited {
 	color: black;
 }
-a:hover {
+.fishpics a:hover {
 	color: orange;
 	font-style: italic;
 }
