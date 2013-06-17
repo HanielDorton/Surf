@@ -1,12 +1,23 @@
 body{
-	background-color: white ;
-	background-image: url(http://i446.photobucket.com/albums/qq189/neokalvinist/titlewithtitle_zps83f12d54.gif);
-	background-position: top, center;
-	background-repeat: no-repeat;
 	border-image: 5px black;
-	background-size: 50em,5em;
+	background-color:white;
 	color: black;
 	font-family: “Trebuchet MS”, Verdana, Arial, Helvetica, sans-serif;
+}
+#logo{
+	background-image:url(http://i446.photobucket.com/albums/qq189/neokalvinist/Fishing/titlewithtitle_zps49b3eeeb.jpg);
+    border-image: 5px black;
+	display:block;
+    height:281px;
+    width:950px;
+	overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
+	margin:auto;
+}
+h1{
+
+
 }
 .paragraph, .sidemenu, .fishpics, img {
 	background-color: LightSkyBlue;
@@ -17,7 +28,7 @@ body{
 	margin: auto;
 }
 .firstsection{
-	margin-top: 305px;
+	margin-top: 30px;
 }
 .paragraph{
 	width:500px;	
@@ -62,6 +73,7 @@ body{
 p{
 	text-indent: 2em;
 	text-align: left;	
+	padding: 5px;
 }	
 hr{
 	clear: both;
@@ -81,4 +93,12 @@ a:visited {
 }
 img {
    padding:1px;
+}
+footer{
+	clear: both;
+	text-align: center;
+}
+.github{
+	float:right;
+	font-size:12px;
 }

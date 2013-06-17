@@ -8,6 +8,9 @@
 
 </head>
 <body>
+<h1>
+	<a href = "/surf" id ="logo">North County Surf Fishing with Daniel Horton, family and friends</a>
+</h1>
 <?php
 include 'database.php';
 ?>
@@ -89,6 +92,15 @@ include 'database.php';
 		</table>
 	</div>
 	
+	<footer> 
+
+		- created by <a href= "/">Daniel Horton</a>, hosted on 
+		<a href="http://www.000webhost.com/" target="_blank">000webhost.com</a> -
+	</footer>
+	
+</div>
+<div class = "github">
+	<a href = "https://github.com/HanielDorton/Surf">view the code</a>
 </div>
 </body>
 </html>
