@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>
-	<a href = "/surf" id ="logo">North County Surf Fishing with Daniel Horton, family and friends</a>
+	<a href = "/surf/surf.php" id ="logo">North County Surf Fishing with Daniel Horton, family and friends</a>
 </h1>
 <?php
 include 'database.php';
@@ -21,10 +21,10 @@ include 'database.php';
 		
 			switch ($_GET["Beach"]) {
 			
-					case "Oceanside Blvd":
+					case "Oceanside_Blvd":
 						$beach = array('<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=33.181256,-117.373287&amp;geocode=&amp;sll=33.181348,-117.373157&amp;sspn=0.001483,0.002411&amp;t=h&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=33.181348,-117.373157&amp;spn=0.001483,0.002411&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=&amp;daddr=33.181256,-117.373287&amp;geocode=&amp;sll=33.181348,-117.373157&amp;sspn=0.001483,0.002411&amp;t=h&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=33.181348,-117.373157&amp;spn=0.001483,0.002411" style="color:#0000FF;text-align:left">View Larger Map</a></small>',"Oceanside Boulevard, Oceanside");
 						break;
-					case "Oceanside Harbor":
+					case "Oceanside_Harbor":
 						$beach = array('<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=33.206305,-117.396782&amp;geocode=&amp;aq=4&amp;oq=oceanside+harbor&amp;sll=33.205605,-117.396362&amp;sspn=0.004192,0.009645&amp;t=h&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=33.205605,-117.396362&amp;spn=0.004192,0.009645&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=&amp;daddr=33.206305,-117.396782&amp;geocode=&amp;aq=4&amp;oq=oceanside+harbor&amp;sll=33.205605,-117.396362&amp;sspn=0.004192,0.009645&amp;t=h&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=33.205605,-117.396362&amp;spn=0.004192,0.009645" style="color:#0000FF;text-align:left">View Larger Map</a></small>' , "Oceanside Harbor, Oceanside");
 						break;
 					case "Tamarack":
@@ -83,7 +83,7 @@ include 'database.php';
 			</select>
 			</form>
 			<br />
-			<a href = "/">Return to Index</a><br />
+			<a href = "/surf/surf.php">Return to Index</a><br />
 			<br />
 		</div>
 	</div>

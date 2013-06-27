@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>
-	<a href = "/surf" id ="logo">North County Surf Fishing with Daniel Horton, family and friends</a>
+	<a href = "/surf/surf.php" id ="logo">North County Surf Fishing with Daniel Horton, family and friends</a>
 </h1>
 <?php
 include 'database.php';
@@ -90,7 +90,7 @@ include 'database.php';
 			</select>
 			</form>
 			<br />
-			<a href = "/">Return to Index</a><br />
+			<a href = "/surf/surf.php">Return to Index</a><br />
 			<br />
 		</div>
 	</div>
