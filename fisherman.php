@@ -51,7 +51,7 @@ include 'database.php';
 		</div>
 		<div class = "sidemenu"> View Catch by: <br /><br /> 
 			Location: <br />
-			<form action="" method="post">
+			<form action="." method="post">
 			<select name="URL" onchange="javascript:window.location.href=this.form.URL.options [this.form.URL.selectedIndex].value">
 				<option value = "http://danielhorton.site11.com/surf/surf.php">Select Location</option>
 				<?
@@ -65,7 +65,7 @@ include 'database.php';
 			</form>
 			<br />
 			Date: <br />
-			<form action="" method="post">
+			<form action="." method="post">
 			<select name="URL2" onchange="javascript:window.location.href=this.form.URL2.options [this.form.URL2.selectedIndex].value">
 				<option value = "http://danielhorton.site11.com/surf/surf.php">Select Date</option>
 				<? $dates = "SELECT DISTINCT date FROM fish2012";
@@ -77,8 +77,8 @@ include 'database.php';
 			</select>
 			</form>
 			<br />
-			Fisherman: <br / >
-			<form action="" method="post">
+			Fisherman: <br />
+			<form action="." method="post">
 			<select name="URL3" onchange="javascript:window.location.href=this.form.URL3.options [this.form.URL3.selectedIndex].value">
 				<option value = "http://danielhorton.site11.com/surf/surf.php">Select Fisherman</option>
 				<? $fishers = "SELECT DISTINCT person FROM fish2012";
