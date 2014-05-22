@@ -2,7 +2,7 @@ body{
 	border-image: 5px black;
 	background-color:white;
 	color: black;
-	font-family: “Trebuchet MS”, Verdana, Arial, Helvetica, sans-serif;
+	font-family: ï¿½Trebuchet MSï¿½, Verdana, Arial, Helvetica, sans-serif;
 }
 #logo{
 	background-image:url(http://i446.photobucket.com/albums/qq189/neokalvinist/Fishing/titlewithtitle_zps49b3eeeb.jpg);
@@ -20,7 +20,7 @@ h1{
 
 }
 .paragraph, .sidemenu, .fishpics, img {
-	background-color: LightSkyBlue;
+	background-color: #145EFF;
 	border: 2px solid black;
 }
 .everything{
@@ -101,4 +101,18 @@ footer{
 .github{
 	float:right;
 	font-size:12px;
+}
+body{
+/* default background colour, for all layout engines that don't implement gradients */
+background: #2a6da9;
+
+/* gecko based browsers */
+background: -moz-linear-gradient(top, #55aaee, #003366);
+
+/* webkit based browsers */
+background: -webkit-gradient(linear, left top, left bottom, from(#55aaee), to(#003366));
+
+color: #000000; /* text colour (black) */
+height: auto; /* gradient uses the full height of the element */
+padding: 5px; /* distance from border edge to text */
 }
