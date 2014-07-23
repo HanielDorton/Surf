@@ -20,6 +20,10 @@ include 'database.php';
 			<?
 		
 			switch ($_GET["Beach"]) {
+				
+					case "San_Onofre":
+						$beach = array('<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d683.9570397611258!2d-117.50522405889178!3d33.33252491714026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssan+onofre!5e1!3m2!1sen!2sus!4v1406145822405"></iframe><br /><small><a href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d683.9570397611258!2d-117.50522405889178!3d33.33252491714026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssan+onofre!5e1!3m2!1sen!2sus!4v1406145822405" style="color:#0000FF;text-align:left">View Larger Map</a></small>',"San Onofre Beach");
+						break;	
 			
 					case "Oceanside_Blvd":
 						$beach = array('<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=&amp;daddr=33.181256,-117.373287&amp;geocode=&amp;sll=33.181348,-117.373157&amp;sspn=0.001483,0.002411&amp;t=h&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=33.181348,-117.373157&amp;spn=0.001483,0.002411&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=&amp;daddr=33.181256,-117.373287&amp;geocode=&amp;sll=33.181348,-117.373157&amp;sspn=0.001483,0.002411&amp;t=h&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;ll=33.181348,-117.373157&amp;spn=0.001483,0.002411" style="color:#0000FF;text-align:left">View Larger Map</a></small>',"Oceanside Boulevard, Oceanside");
