@@ -128,8 +128,10 @@ include 'database.php';
 	</div>
 		
 </div>
-<div class = "github">
-	<a href = "https://github.com/HanielDorton/Surf">view the code</a>
-</div>
+	<footer> 
+
+		- created by <a href= "http://hanieldorton.github.io/">Daniel Horton</a>, hosted on 
+		<a href="http://www.000webhost.com/" target="_blank">000webhost.com</a> -
+	</footer>
 </body>
 </html>

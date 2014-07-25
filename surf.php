@@ -91,16 +91,14 @@ include 'database.php';
 			</tr>		
 		</table>
 	</div>
+</div>
 	
 	<footer> 
 
-		- created by <a href= "/">Daniel Horton</a>, hosted on 
+		- created by <a href= "http://hanieldorton.github.io/">Daniel Horton</a>, hosted on 
 		<a href="http://www.000webhost.com/" target="_blank">000webhost.com</a> -
 	</footer>
-	
-</div>
-<div class = "github">
-	<a href = "https://github.com/HanielDorton/Surf">view the code</a>
-</div>
+
+
 </body>
 </html>

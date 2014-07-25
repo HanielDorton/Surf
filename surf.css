@@ -98,10 +98,6 @@ footer{
 	clear: both;
 	text-align: center;
 }
-.github{
-	float:right;
-	font-size:12px;
-}
 body{
 /* default background colour, for all layout engines that don't implement gradients */
 background: #2a6da9;
